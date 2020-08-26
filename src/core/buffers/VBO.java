@@ -1,10 +1,11 @@
 package core.buffers;
 
-import core.model.Mesh;
+/**
+ * Vertex Array Object
+ */
 
 public interface VBO {
-    public void allocate(Mesh mesh);
-    public void draw();
-    public void delete();
 
+	public void draw();
+	public void delete();
 }
