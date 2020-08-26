@@ -6,3 +6,4 @@ bin/apps/
 /bin/
 /target/
 .settings
+/.idea/
